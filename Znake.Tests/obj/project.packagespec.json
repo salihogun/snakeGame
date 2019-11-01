@@ -1,0 +1,44 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\alternet\\projects\\projects\\Znake\\Znake.Tests\\Znake.Tests.csproj",
+    "projectName": "Znake.Tests",
+    "projectPath": "D:\\alternet\\projects\\projects\\Znake\\Znake.Tests\\Znake.Tests.csproj",
+    "outputPath": "D:\\alternet\\projects\\projects\\Znake\\Znake.Tests\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net48"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net48": {
+        "projectReferences": {
+          "D:\\alternet\\projects\\projects\\Znake\\Znake.Desktop\\Znake.Desktop.csproj": {
+            "projectPath": "D:\\alternet\\projects\\projects\\Znake\\Znake.Desktop\\Znake.Desktop.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net48": {
+      "dependencies": {
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        }
+      }
+    }
+  }
+}

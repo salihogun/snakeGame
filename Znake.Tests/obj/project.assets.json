@@ -1,0 +1,417 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net47/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/net47/CommonServiceLocator.dll": {}
+        }
+      },
+      "ControlzEx/3.0.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net462/ControlzEx.dll": {},
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ControlzEx.dll": {},
+          "lib/net462/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "DryIoc.dll/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DryIoc.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DryIoc.dll": {}
+        }
+      },
+      "MahApps.Metro/1.6.5": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[3.0.2.4, 4.0.0)"
+        },
+        "compile": {
+          "lib/net47/MahApps.Metro.dll": {}
+        },
+        "runtime": {
+          "lib/net47/MahApps.Metro.dll": {}
+        }
+      },
+      "NUnit/3.12.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Prism.Core/7.2.0.1367": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net45/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.dll": {}
+        }
+      },
+      "Prism.DryIoc/7.2.0.1367": {
+        "type": "package",
+        "dependencies": {
+          "DryIoc.dll": "4.0.4",
+          "Prism.Wpf": "7.2.0.1367"
+        },
+        "compile": {
+          "lib/net45/Prism.DryIoc.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.DryIoc.Wpf.dll": {}
+        }
+      },
+      "Prism.Wpf/7.2.0.1367": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Prism.Core": "7.2.0.1367"
+        },
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Prism.Wpf.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "Znake.Desktop/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "MahApps.Metro": "1.6.5",
+          "Prism.DryIoc": "7.2.0.1367"
+        },
+        "compile": {
+          "bin/placeholder/Znake.Desktop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Znake.Desktop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonServiceLocator/2.0.4": {
+      "sha512": "YpXfV5l6kv1iQRDfhQnN4RxocbnNehU/rAAS62IlaQUTAKN3WoUbtx9MHwE98Pb09mBemSs4xhVqFhXq27rjxw==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.2.0.4.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net46/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netcoreapp2.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "ControlzEx/3.0.2.4": {
+      "sha512": "5pgvHE329JDDPwPHCVJe93yxu3CPl2wPh6ma1watUAGjvBtNSMkDcyzvwZcHSryihA/y4Ml3OmDYz9vj7Fg6Xg==",
+      "type": "package",
+      "path": "controlzex/3.0.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.3.0.2.4.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net40/ControlzEx.dll",
+        "lib/net40/ControlzEx.pdb",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/System.Windows.Interactivity.dll"
+      ]
+    },
+    "DryIoc.dll/4.0.4": {
+      "sha512": "U0eE5DMRwPi6vcLvp4gno+W+yi85EE7TklgQNwdyH+YFHpY/CQ/P8VZYfY/6Jmwr9t7YyknYdg5XsCDDCVxikg==",
+      "type": "package",
+      "path": "dryioc.dll/4.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DryIoc.snk",
+        "LICENSE.txt",
+        "dryioc.dll.4.0.4.nupkg.sha512",
+        "dryioc.dll.nuspec",
+        "lib/net35/DryIoc.dll",
+        "lib/net35/DryIoc.xml",
+        "lib/net40/DryIoc.dll",
+        "lib/net40/DryIoc.xml",
+        "lib/net45/DryIoc.dll",
+        "lib/net45/DryIoc.xml",
+        "lib/netstandard1.0/DryIoc.dll",
+        "lib/netstandard1.0/DryIoc.xml",
+        "lib/netstandard1.3/DryIoc.dll",
+        "lib/netstandard1.3/DryIoc.xml",
+        "lib/netstandard2.0/DryIoc.dll",
+        "lib/netstandard2.0/DryIoc.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/DryIoc.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/DryIoc.xml",
+        "lib/portable-net45+win8+wp8+wpa81/DryIoc.dll",
+        "lib/portable-net45+win8+wp8+wpa81/DryIoc.xml"
+      ]
+    },
+    "MahApps.Metro/1.6.5": {
+      "sha512": "XFxACnPbTAZ9qYcXMqFDLXXEpAbLj3BYaXqwH8NoY0sfSAYepEpE4C53Nd6AI4TnQ+nmDugtO8dwsAXPtt0SXQ==",
+      "type": "package",
+      "path": "mahapps.metro/1.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/MahApps.Metro.dll",
+        "lib/net40/MahApps.Metro.pdb",
+        "lib/net40/MahApps.Metro.xml",
+        "lib/net45/MahApps.Metro.dll",
+        "lib/net45/MahApps.Metro.pdb",
+        "lib/net45/MahApps.Metro.xml",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "mahapps.metro.1.6.5.nupkg.sha512",
+        "mahapps.metro.nuspec"
+      ]
+    },
+    "NUnit/3.12.0": {
+      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "type": "package",
+      "path": "nunit/3.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.12.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Prism.Core/7.2.0.1367": {
+      "sha512": "vrz2M/Hr9ItcAUvnT+n76ak6qPQMgJfyTYFSKqphveb9ibohm70vzc0cWu1jkeBY5XPS9RbUluXMa9WQGM0kPw==",
+      "type": "package",
+      "path": "prism.core/7.2.0.1367",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netcoreapp3.0/Prism.dll",
+        "lib/netcoreapp3.0/Prism.pdb",
+        "lib/netcoreapp3.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism.core.7.2.0.1367.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.DryIoc/7.2.0.1367": {
+      "sha512": "n8Bi8GJuYCwRUUsc1x/+qRu5iuk5U/55ZdDwcmI/x8I6uI7IIzM7NKgS56EHWIjbwR9pOVk7h4mbGLhIpMB3Cg==",
+      "type": "package",
+      "path": "prism.dryioc/7.2.0.1367",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.DryIoc.Wpf.dll",
+        "lib/net45/Prism.DryIoc.Wpf.pdb",
+        "lib/net45/Prism.DryIoc.Wpf.xml",
+        "lib/netcoreapp3.0/Prism.DryIoc.Wpf.dll",
+        "lib/netcoreapp3.0/Prism.DryIoc.Wpf.pdb",
+        "lib/netcoreapp3.0/Prism.DryIoc.Wpf.xml",
+        "prism.dryioc.7.2.0.1367.nupkg.sha512",
+        "prism.dryioc.nuspec"
+      ]
+    },
+    "Prism.Wpf/7.2.0.1367": {
+      "sha512": "jr7qlHqXSg3k5c7pGrsJMAoXO/MZCPUVtWmAp0klfmHThrdGSMeHvG0QmchYv4zKLoPg+xDHBswuUe/umYp/dg==",
+      "type": "package",
+      "path": "prism.wpf/7.2.0.1367",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.Wpf.dll",
+        "lib/net45/Prism.Wpf.pdb",
+        "lib/net45/Prism.Wpf.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/netcoreapp3.0/Prism.Wpf.dll",
+        "lib/netcoreapp3.0/Prism.Wpf.pdb",
+        "lib/netcoreapp3.0/Prism.Wpf.xml",
+        "lib/netcoreapp3.0/System.Windows.Interactivity.dll",
+        "prism.wpf.7.2.0.1367.nupkg.sha512",
+        "prism.wpf.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Znake.Desktop/1.0.0": {
+      "type": "project",
+      "path": "../Znake.Desktop/Znake.Desktop.csproj",
+      "msbuildProject": "../Znake.Desktop/Znake.Desktop.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "NUnit >= 3.12.0",
+      "Znake.Desktop >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Salih\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Salih\\source\\repos\\Znake\\Znake.Tests\\Znake.Tests.csproj",
+      "projectName": "Znake.Tests",
+      "projectPath": "C:\\Users\\Salih\\source\\repos\\Znake\\Znake.Tests\\Znake.Tests.csproj",
+      "packagesPath": "C:\\Users\\Salih\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Salih\\source\\repos\\Znake\\Znake.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Salih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {
+            "C:\\Users\\Salih\\source\\repos\\Znake\\Znake.Desktop\\Znake.Desktop.csproj": {
+              "projectPath": "C:\\Users\\Salih\\source\\repos\\Znake\\Znake.Desktop\\Znake.Desktop.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
